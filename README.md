@@ -7,4 +7,7 @@ Uses notes from B7 (3951Hz) to A2 (110Hz), a total of 52 tones.
 You can convert any image into a supported one through the following ImageMagick command:
 convert input.jpg -resize 256x256! -colorspace Gray output.jpg
 
-To use it, enter file name on line 34 of hilbert.cpp, compile it and run it. It will write an output.wav file in the same folder.
+To use it, enter file name on line 34 of hilbert.cpp, compile it and run it. It will write an output.wav file in the same folder. It does not fail nicely if the input does not exist (seg. fault), so be sure to enter that.
+
+To compile on GNU/Linux, simply use
+g++ *.cpp

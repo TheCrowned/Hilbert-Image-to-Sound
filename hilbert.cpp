@@ -31,7 +31,7 @@ uint8_t* unroll_matrix_through_hilbert_curve(uint8_t** );
 uint8_t* means_vector(uint8_t* );
 
 int main( int argc, char *argv[] ) {
-	const char* file_name = "input.jpg";
+	const char* file_name = "test.jpg";
 	uint8_t* image = read_image( file_name );
 	uint8_t** matrix = arrange_image_in_matrix( image );
     
