@@ -1,5 +1,5 @@
 # Hilbert-Image-to-Sound
-Turn an image into a sequence of sounds using an Hilbert Curve.
+Turn an image into a sequence of sounds using a Hilbert Curve.
 
 Works with black and white, 256x256 square images.
 Uses notes from B7 (3951Hz) to A2 (110Hz), a total of 52 tones.
